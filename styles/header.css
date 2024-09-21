@@ -9,22 +9,25 @@
 }
 .logo > img {
 	width: 150px;
+	margin-bottom: 15px;
 }
 .header__wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1.875rem 0;
+	padding: 1rem 0;
 }
 
 .nav-list {
 	display: flex;
+	margin-right: 25px;
 	justify-content: space-between;
 	gap: 35px;
+	font-size: 15px;
 }
 
 .nav-list__link {
-	color: black;
+	color: white;
 	text-decoration: none;
 	font-weight: 400;
 	font-size: 1.25rem;
@@ -35,8 +38,8 @@
 }
 
 .nav-list__link:hover {
-	color: #fff;
-	background-color: deepskyblue;
+	color: #1560bd;
+	background-color: white;
 	transform: scale(1.1);
 	border-radius: 180px;
 }
@@ -44,4 +47,15 @@
 .auth_menu {
 	display: flex;
 	justify-content: space-between;
+}
+
+.header .container {
+	background-color: #1560bd;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+	.header .container {
+		padding: 10px 0;
+		flex-direction: column;
+	}
 }
