@@ -70,5 +70,7 @@
 
 	.nav-list {
 		gap: 15px;
+
+		flex-direction: column;
 	}
 }
