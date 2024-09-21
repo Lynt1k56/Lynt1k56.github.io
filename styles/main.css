@@ -166,6 +166,18 @@ body {
 	.products {
 		flex-wrap: wrap;
 	}
-	.products__product {
+	.section-title {
+		font-size: 35px;
+	}
+
+	.text {
+		font-size: 20px;
+	}
+
+	.advantages .container .text {
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
 	}
 }
