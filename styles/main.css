@@ -139,14 +139,17 @@ body {
 
 .products {
 	display: flex;
-
 	gap: 25px;
 
-	div {
+	.products__product {
 		background-color: #1560bd;
 		font-size: 20px;
 		text-align: center;
 		color: white;
+
+		p {
+			padding: 10px 0;
+		}
 	}
 }
 
@@ -156,4 +159,13 @@ body {
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
+	.block {
+		display: none;
+	}
+
+	.products {
+		flex-wrap: wrap;
+	}
+	.products__product {
+	}
 }
